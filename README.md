@@ -4,6 +4,8 @@
 
 A small library written in vanilla JavaScript providing a basic [opening crawl animation](https://en.wikipedia.org/wiki/Star_Wars_opening_crawl).
 
+[Example](https://jsbin.com/jirifiv/3/edit?output)
+
 ## Install
 
 Install using npm
