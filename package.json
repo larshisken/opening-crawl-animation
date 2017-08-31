@@ -1,0 +1,20 @@
+{
+  "name": "opening-crawl-animation",
+  "version": "0.0.1",
+  "description": "A small library written in vanilla JavaScript providing a basic opening crawl animation.",
+  "main": "build/commonjs2/oca.min.js",
+  "scripts": {
+    "build": "WEBPACK_ENV=prod webpack",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lars Hisken",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.5"
+  }
+}
